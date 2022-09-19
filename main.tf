@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "Websever" {
-	ami = "ami-052efd3df9dad4825"
+	ami = "ami-085284d24fe829cd0"
 	instance_type = "t2.micro"
 }
 
